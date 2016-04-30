@@ -1,8 +1,8 @@
 div {
-	height: 30px; width: 30px; 
-	background-color: blue;  
+	height: 30px; width: 30px;  
 	display: inline-block; 
-	margin: 5px 5px 5px 5px; 
+	margin: 1px 1px 1px 1px; 
+	border:1px solid black;
 }
 
 .balls {

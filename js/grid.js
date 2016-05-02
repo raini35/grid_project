@@ -59,20 +59,20 @@ function makeBoard(height, width){
 //The following code returns the new color of the background
 function findColor(x) {
 	if(x == 1) 
-		return "black"; 
-	//else if (x == 2) 
-	//	return "white"; 
-	//else (x == 3)
-	//	return "blue"; 
+		return "red"; 
+	else if (x == 2) 
+		return "white"; 
+	else (x == 3)
+		return "blue"; 
 }
 
 //The following code returns the new number
 //The commented out code is supposed to be used to make different colors
 function newNumber(x) {
 	if(x == 1) 
+		return 2; 
+	else if (x == 2) 
+		return 3; 
+	else (x == 3)
 		return 1; 
-	//else if (x == 2) 
-	//	return 1; 
-	//else (x == 3)
-	//	return 1; 
 }
